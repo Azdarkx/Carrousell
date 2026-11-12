@@ -61,6 +61,8 @@ header h1{
 .slider button{
     text-align: center;
     gap : 2px;
+    background-color: grey;
+    color: black;
 }
 
 img {
