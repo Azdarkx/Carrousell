@@ -47,6 +47,7 @@ header h1{
     border: solid green 2px;
     color: green;
     border-radius: 20%;
+    padding: 10px;
 }
 
 img {
