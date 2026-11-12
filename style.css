@@ -80,5 +80,15 @@ header h1{
     border-radius: 20%;
     border: solid grey 5px;
     max-width: 50%;
+     transform: rotate(-5deg);
+     margin-bottom: 10px;
+     margin-top: 10px;
     
+}
+
+.image figcaption {
+    margin-top: 10px;
+    font-size:larger;
+    font-weight: 500;
+
 }
