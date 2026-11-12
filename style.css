@@ -17,6 +17,10 @@ le texte alternatif décrit ce que l'on voit. Les deux sont différents.
 */
 
 
+* {
+  box-sizing: border-box;
+}
+
 .open-sans-<uniquifier> {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -65,10 +69,16 @@ header h1{
     color: black;
     padding: 10px;
 }
+.image {
 
+    justify-content: center;
+    text-align: center;
 
+}
 
-img {
+.image img {
     border-radius: 20%;
-    border: solid grey 2px;
+    border: solid grey 5px;
+    max-width: 50%;
+    
 }
