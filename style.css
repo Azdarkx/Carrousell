@@ -79,7 +79,8 @@ header h1{
 .image img {
     border-radius: 20%;
     border: solid grey 5px;
-    max-width: 50%;
+    max-width: 1000px;
+    max-height: 500px;
      transform: rotate(-3deg);
      margin-bottom: 10px;
      margin-top: 10px;
@@ -98,4 +99,10 @@ footer{
     margin: 20px;
     text-align: center;
     margin-bottom: 0;
+}
+
+@media (max-width: 375px) {
+  body {
+    display: none;
+  }
 }
