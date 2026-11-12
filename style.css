@@ -1,0 +1,32 @@
+/*
+Mettre en forme l'interface conformément à la maquette.
+• Disposer les boutons de la barre d'outils horizontalement.
+• Utiliser Font Awesome pour les icônes.
+• Utiliser la police Open Sans de Google Fonts.
+• Adapter l'affichage aux différentes tailles d'écran.
+
+
+- Boutons de la barre d'outils alignés horizontalement, illustrés avec les icônes Font Awesome.
+- Apparence conforme à la maquette : bandeau de titre, photo inclinée, bords arrondis, légende centrée.
+- Page responsive (lisible dès 375 px) et focus clavier visible sur tous les boutons.
+
+DONNÉES Les photos sont décrites dans un tableau d'objets au début de script.js : 
+src, titre et alt (au moins 6 photos). Le HTML ne contient qu'une image : 
+c'est le JavaScript qui la change. Le titre est affiché sous l'image ; 
+le texte alternatif décrit ce que l'on voit. Les deux sont différents.
+*/
+
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    
+}
