@@ -74,6 +74,8 @@ toggleButton.addEventListener('click', () => {
         toolBar.style.display = 'none';
     }
 });
+<<<<<<< HEAD
+=======
 
 
 let randomToggle = false;
