@@ -28,5 +28,11 @@ le texte alternatif décrit ce que l'on voit. Les deux sont différents.
 
 body{
     font-family: "Open Sans", sans-serif;
-    
+
 }
+
+h1{
+    background-color: grey;
+    color: black;
+}
+
