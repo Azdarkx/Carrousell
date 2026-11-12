@@ -52,6 +52,17 @@ header h1{
     margin-top: 5px;
 }
 
+.slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.slider button{
+    text-align: center;
+    gap : 2px;
+}
+
 img {
     border-radius: 20%;
     border: solid grey 2px;
