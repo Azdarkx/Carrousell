@@ -69,11 +69,16 @@ header h1{
     color: black;
     padding: 10px;
 }
+.image {
 
+    justify-content: center;
+    text-align: center;
 
+}
 
-img {
+.image img {
     border-radius: 20%;
-    border: solid grey 2px;
+    border: solid grey 5px;
     max-width: 50%;
+    
 }
