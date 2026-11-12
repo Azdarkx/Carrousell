@@ -52,13 +52,11 @@ header h1{
     margin-top: 5px;
 }
 
-.slider {
+.tool-bar {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
-}
-.slider button{
+.tool-bar button{
     text-align: center;
     gap : 2px;
     background-color: grey;
