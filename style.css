@@ -28,11 +28,12 @@ le texte alternatif décrit ce que l'on voit. Les deux sont différents.
 
 body{
     font-family: "Open Sans", sans-serif;
-    margin: 0;
+    margin: 2px;
+    
 
 }
 
-h1{
+header h1{
     background-color: grey;
     color: rgb(54, 52, 52);
     padding: 15px;
@@ -41,6 +42,27 @@ h1{
     font-weight: 600;
 
     
+}
+
+#show {
+    border: solid green 2px;
+    color: green;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 5px;
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.slider button{
+    text-align: center;
+    gap : 2px;
+    background-color: grey;
+    color: black;
 }
 
 img {
