@@ -1,4 +1,4 @@
-Projet Centre Horizon carrousel
+# Projet Centre Horizon carrousel
 
 Répartition des missions:
 
