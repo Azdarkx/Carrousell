@@ -74,9 +74,6 @@ toggleButton.addEventListener('click', () => {
         toolBar.style.display = 'none';
     }
 });
-<<<<<<< HEAD
-=======
-
 
 let randomToggle = false;
 const randomButton = document.getElementById('melange');
