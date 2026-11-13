@@ -1,12 +1,8 @@
 # Projet Centre Horizon carrousel
 
-Répartition des missions:
 
-* Soren: Javascript
-* Ariane: CSS
-* Melkior: HTML
 
-Fonctionnalités : 
+## Fonctionnalités : 
 
 Cette page du site Centre Horizon permet de visualiser un diaporama d'images grâce à 4 boutons. 
 Il s'agit des quatres boutons suivants : 
