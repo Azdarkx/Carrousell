@@ -1,6 +1,10 @@
 # Projet Centre Horizon carrousel
 
+## Groupe:
 
+* Soren
+* Melkior
+* Ariane
 
 ## Fonctionnalités : 
 
