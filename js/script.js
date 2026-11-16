@@ -5,6 +5,8 @@ const toggleButton = document.getElementById('show');
 const toolBar = document.querySelector('.tool-bar');
 const nextButton = document.getElementById('avant');
 const previousButton = document.getElementById('arriere');
+const playButton = document.getElementById('pause');
+let playing = false;
 
 let images = [
     {
@@ -104,5 +106,22 @@ previousButton.addEventListener('click', () => {
     console.log(currentImageIndex);
     showImage(currentImageIndex);
 });
-
+function playImages() {
+    currentImageIndex = (currentImageIndex + 1) % images.length;
+    console.log("Index de l'image actuelle :" + currentImageIndex);
+    showImage(currentImageIndex);
+}
+playButton.addEventListener('click', () => {
+    if (playing) {
+        clearInterval(playInterval);
+        playButton.style.backgroundColor = '#e2dfdf';
+        playButton.style.color = '#000';
+        playing = false;
+    } else {
+        playing = true;
+        playButton.style.backgroundColor = '#0f74ff';
+        playButton.style.color = '#fff';
+        playInterval = setInterval(playImages, 5000);
+    }
+});
 showImage(currentImageIndex);
